@@ -39,7 +39,7 @@ a {
 
 .container {
   min-height: 100vh;
-  width: 100%;
+  min-width: 100vw;
   background-color: var(--bg);
   color: var(--textColor);
 }
@@ -51,7 +51,7 @@ a {
   padding-left: 80px;
   padding-right: 80px;
 }
-/* 
+
 @media screen and (max-width: 1536px) {
   .wrapper {
     max-width: 1366px;
@@ -78,7 +78,7 @@ a {
   .wrapper {
     max-width: 475px;
   }
-} */
+}
 
 .ql-container {
   font-size: 28px !important;
